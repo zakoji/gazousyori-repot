@@ -11,7 +11,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図1のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog8-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog8-1.png)
 
 図1　原画像
 
@@ -23,7 +23,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図2のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog8-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog8-2.png)
 
 図2　閾値128で二値化した画像
 
@@ -33,6 +33,6 @@ IMG = bwlabeln(IMG);
 
 imagesc(IMG); colormap(jet); colorbar; % 画像の表示
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog8-3.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog8-3.png)
 
 図3　色調を分けた画像

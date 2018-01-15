@@ -22,7 +22,7 @@ imagesc(IMG2); axis image; % 画像の表示
 
 1/2サンプリングの結果を図２に示す．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-1.png)
 
 図2 1/2サンプリング
 
@@ -36,18 +36,18 @@ imagesc(IMG2); axis image; % 画像の表示
 
 1/4サンプリングの結果を図２に示す．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-2.png)
 
 図3 1/4サンプリング
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-3.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-3.png)
 
 図4 1/8サンプリング
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-4.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-4.png)
 
 図5 1/16サンプリング
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-5.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog1-5.png)
 
 図6 1/32サンプリング

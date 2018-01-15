@@ -12,7 +12,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図1のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-1.png)
 
 図1　原画像
 
@@ -20,7 +20,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 imhist(ORG); % 濃度ヒストグラムを生成、表示
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-2.png)
 
 図2　濃度ヒストグラム
 
@@ -40,10 +40,10 @@ ORG = uint8(ORG);
 
 imhist(ORG); % 濃度ヒストグラムを生成、表示
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-3.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-3.png)
 
 図3　平衡化した画像
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-4.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog7-4.png)
 
 図4　平衡化した画像のヒストグラム

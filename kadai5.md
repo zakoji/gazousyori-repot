@@ -12,7 +12,7 @@ imagesc(ORG); colormap(gray); colorbar;
 
 表示結果は図1のようになる．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog5-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog5-1.png)
 
 図1　原画像
 
@@ -64,6 +64,6 @@ imagesc(IMG); colormap(gray); colorbar;
 
 表示結果は図2のようになる
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog5-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog5-2.png)
 
 図2　判別法を用いた2値化

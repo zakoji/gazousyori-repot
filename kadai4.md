@@ -12,7 +12,7 @@ imagesc(ORG); colormap(gray); colorbar;
 
 表示された画像は図1のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog4-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog4-1.png)
 
 図1　原画像
 
@@ -22,6 +22,6 @@ imhist(ORG);
 
 結果は図2のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog4-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog4-2.png)
 
 図2　ヒストグラム

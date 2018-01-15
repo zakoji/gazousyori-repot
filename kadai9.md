@@ -12,7 +12,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図1のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-1.png)
 
 図1　原画像
 
@@ -24,7 +24,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図2のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-2.png)
 
 図2　ノイズを添付した画像
 
@@ -36,7 +36,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図3のようになった.
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-3.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-3.png)
 
 図3　平滑化フィルタで雑音除去を行った画像
 
@@ -48,7 +48,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図4のようになった.
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-4.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-4.png)
 
 図4　メディアンフィルタで雑音除去を行った画像
 
@@ -60,6 +60,6 @@ IMG = filter2(f,IMG,'same'); % フィルタの適用
 
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-5.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog9-5.png)
 
 図5　フィルタを設計した画像

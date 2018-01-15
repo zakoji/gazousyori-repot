@@ -7,7 +7,7 @@ ORG = rgb2gray(ORG); colormap(gray); colorbar;
 
 imagesc(ORG); axis image; % 画像の表示   その結果を図１に示す．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-1.jpg)  
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-1.png)  
 
 図１ グレースケール
 
@@ -17,7 +17,7 @@ IMG = ORG>128;   imagesc(IMG); colormap(gray); colorbar; axis image;
 
 この処理の結果を図２に示す．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-2.png)
 
 図２  ２階調画像
 
@@ -28,7 +28,7 @@ IMG1 = ORG>128;
 IMG2 = ORG>192;
 IMG = IMG0 + IMG1 + IMG2;
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-3.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-3.png)
 
 図３  ４階調画像
 
@@ -41,6 +41,6 @@ IMG5 = ORG>224;
 IMG6 = ORG>256;
 IMG = IMG0 + IMG1 + IMG2 +IMG3 +IMG4 +IMG5 +IMG6;
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-4.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog2-4.png)
 
 図４ 8階調画像

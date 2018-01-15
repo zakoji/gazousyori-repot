@@ -12,7 +12,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 表示結果は図1のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-1.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-1.png)
 
 図1　原画像
 
@@ -24,7 +24,7 @@ imagesc(IMG); colormap('gray'); colorbar;% 画像表示
 
 表示結果は図2のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-2.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-2.png)
 
 図2　プレウィット法によるエッジ抽出の結果
 
@@ -36,7 +36,7 @@ imagesc(IMG); colormap('gray'); colorbar;% 画像表示
 
 表示結果は図3のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-3.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-3.png)
 
 図3　ソベル法によるエッジ抽出の結果
 
@@ -48,6 +48,6 @@ imagesc(IMG); colormap('gray'); colorbar;% 画像表示
 
 表示結果は図4のようになった．
 
-![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-4.jpg)
+![](https://github.com/zakoji/gazousyori-repot/blob/master/image/dog10-4.png)
 
 図4　キャニー法によるエッジ抽出の結果
